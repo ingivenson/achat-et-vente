@@ -1,0 +1,73 @@
+/* Styles pour le menu */
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.tem1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tem1 li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tem1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tem1 li.active {
+    font-weight: bold;
+}
+
+/* Styles pour le contenu */
+.content {
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.product-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #555;
+}
